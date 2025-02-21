@@ -9,13 +9,18 @@ header{
     .main{
         font-size: 85px;
         text-align: center;
+        img{
+            position: absolute;
+            top: 100px;
+        }
     }
     nav{
         height: 20vh;
         display: flex;
         align-items: center;
         justify-content: space-around;
-        ul{
+        .volt{
+            width: 40%;
             display: flex;
             gap: 30px;
             font-size: 16px;
